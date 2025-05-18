@@ -1,9 +1,9 @@
 export const LINKS = {
-  github: "https://github.com/heckintosh",
-  linkedin: "https://www.linkedin.com/in/ducanhnguyen9/",
-  x: "https://x.com/heckintosh_",
-  dribble: "https://dribbble.com/Ladvace_Jace",
-  email: "contact@anh.com",
+  github: "https://github.com/x",
+  linkedin: "https://www.linkedin.com/in/x/",
+  x: "https://x.com/x",
+  dribble: "https://dribbble.com/x",
+  email: "x",
 };
 
 export const loaderAnimation = [
