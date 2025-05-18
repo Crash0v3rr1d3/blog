@@ -19,7 +19,7 @@ export function formatTimeForMadrid(date: Date): string {
     minute: "2-digit", 
     second: "2-digit",
     hour12: true,
-    timeZone: "Asia/Ho_Chi_Minh",
+    timeZone: "Europe/Madrid",
   };
 
   let formattedTime = new Intl.DateTimeFormat("en-US", options).format(date);
