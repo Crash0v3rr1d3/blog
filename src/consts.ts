@@ -13,13 +13,13 @@ export type Link = {
 }
 
 export const SITE: Site = {
-  TITLE: 'heckintosh.github.com',
+  TITLE: 'crash0v3rr1d3.xyz',
   DESCRIPTION:
     'sec researcher.',
-  EMAIL: 'heckintosh@protonmail.com',
+  EMAIL: 'crash0v3rr1d3@icloud.com',
   NUM_POSTS_ON_HOMEPAGE: 2,
   POSTS_PER_PAGE: 4,
-  SITEURL: 'https://heckintosh.github.com',
+  SITEURL: 'https://crash0v3rr1d3.xyz',
 }
 
 export const NAV_LINKS: Link[] = [
@@ -32,8 +32,8 @@ export const NAV_LINKS: Link[] = [
 ]
 
 export const SOCIAL_LINKS: Link[] = [
-  { href: 'https://github.com/heckintosh', label: 'GitHub' },
-  { href: 'https://x.com/heckintosh_', label: 'Twitter' },
-  { href: 'heckintosh@protonmail.com', label: 'Email' },
+  { href: 'https://github.com/xxx', label: 'GitHub' },
+  { href: 'https://x.com/xxx_', label: 'Twitter' },
+  { href: 'crash0v3rr1d3@icloud.com', label: 'Email' },
   { href: '/rss.xml', label: 'RSS' },
 ]
