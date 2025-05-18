@@ -11,7 +11,7 @@ import Card from "./Card/index.astro";
         id="timeDisplay"
         class="text-2xl xl:text-xl xl:whitespace-nowrap transition-colors duration-200"
       >
-        {formatTimeForVietnam(getCurrentTimeInVietnam())}
+        {formatTimeForMadrid(getCurrentTimeInMadrid())}
       </time>
     </div>
     <div id="myTimezoneDisplay" class="text-sm text-gray-500"></div>
@@ -20,7 +20,7 @@ import Card from "./Card/index.astro";
 
 <script>
   import { onCleanup, onMount } from "solid-js";
-  import { formatTimeForVietnam, isMorningTime } from "@lib/helpers";
+  import { formatTimeForMadrid, isMorningTime } from "@lib/helpers";
 
   let interval: ReturnType<typeof setInterval>;
 
@@ -30,7 +30,7 @@ import Card from "./Card/index.astro";
     const now = new Date();
 
     if (timeDisplay && myTimezoneDisplay) {
-      const timeString = formatTimeForVietnam(now);
+      const timeString = formatTimeForMadrid(now);
       const [time, period] = timeString.split(' ');
       
       const themeColor = period === 'AM' ? 'text-amber-400' : 'text-blue-400';
